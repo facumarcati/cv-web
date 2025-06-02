@@ -1,0 +1,202 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+#main {
+    padding: 0 30px;
+}
+
+.perfil {
+    color: white;
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    border-start-start-radius: 16px;
+    border-start-end-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 0;
+}
+
+.imagen-perfil {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid grey;
+    margin-top: 12px;
+}
+
+.nombre-perfil {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.desc-perfil {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0px 10px 16px 10px;
+    text-align: center;
+}
+
+.container-redes-sociales {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.redes-sociales {
+    background: #3498db;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+    .redes-sociales:hover {
+        background: #2980b9;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+    }
+
+.sobre-mi, .experiencia-laboral, .educacion, .habilidades-tecnicas, .idiomas {
+    background: white;
+    padding: 20px 30px;
+}
+
+.idiomas {
+    border-end-end-radius: 16px;
+    border-end-start-radius: 16px;
+}
+
+.contacto {
+    background: white;
+    padding: 20px 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.container-experiencia-laboral {
+    display: flex;
+    flex-direction: column;
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 10px;
+    gap: 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .container-experiencia-laboral:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+.exp-laboral-titulo {
+    color: #2c3e50;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.exp-laboral-empresa {
+    color: #3498db;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.exp-laboral-tiempo {
+    color: #7f8c8d;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.container-desc-exp-laboral {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-educacion-curso {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.educacion-curso {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .educacion-curso:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+.container-habilidades-tecnicas {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .habilidades:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+.habilidades-titulo {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.habilidades-tecnologias {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tecnologia {
+    background: #3498db;
+    padding: 6px 10px;
+    border-radius: 12px;
+    color: white;
+}
+
+    .tecnologia:hover {
+        background: #2980b9;
+        box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+    }
