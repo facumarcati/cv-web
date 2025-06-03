@@ -15,15 +15,20 @@
                 <h1 class="nombre-perfil">Facundo Marcati</h1>
                 <p class="desc-perfil">Software & Full Stack Web Developer</p>
                 <div class="container-redes-sociales">
-                    <a class="redes-sociales" href="" target="_blank">🔗 LinkedIn
+                    <a class="redes-sociales" href="https://www.linkedin.com/in/facundomarcati/" target="_blank">🔗 LinkedIn
                     </a>
-                    <a class="redes-sociales" href="" target="_blank">💻 GitHub
+                    <a class="redes-sociales" href="https://github.com/facumarcati" target="_blank">💻 GitHub
                     </a>
                 </div>
             </section>
             <section class="sobre-mi">
                 <h2 class="sobre-mi-titulo">Sobre Mí</h2>
-                <p class="sobre-mi-desc">Programador graduado, con interés en desarrollo .NET y tecnologías web.</p>
+                <p class="sobre-mi-desc">
+                    Soy Facundo Marcati, Técnico en Programación egresado de la UTN y apasionado por la tecnología desde temprana edad. Disfruto resolver problemas a través del código y sigo formándome constantemente para mantenerme actualizado en el mundo del desarrollo de software y web.
+Actualmente estoy profundizando mis conocimientos con la Diplomatura en Desarrollo Web Full Stack en Coderhouse, lo que me permite integrar tecnologías de frontend y backend en proyectos reales.
+Tengo experiencia en el desarrollo de aplicaciones web y de escritorio, aplicando buenas prácticas como la arquitectura en capas, manejo de excepciones y validaciones.
+Mi objetivo es seguir creciendo como desarrollador, aportar valor a los equipos de trabajo y asumir nuevos desafíos que impulsen mi desarrollo profesional.
+                </p>
             </section>
             <section class="experiencia-laboral">
                 <h2 class="experiencia-laboral-titulo">Experiencia Laboral</h2>
@@ -47,13 +52,13 @@ mejorando la eficiencia operativa.</span>
                         <span class="exp-laboral-titulo">Tecnicatura Superior en Programación</span>
                         <span class="exp-laboral-empresa">Universidad Tecnológica Nacional</span>
                         <span class="exp-laboral-tiempo">2020 - 2023</span>
-                        <span class="container-desc-exp-laboral">Enfoque en desarrollo de software, bases de datos y arquitectura de sistemas.</span>
+                        <span class="container-desc-exp-laboral">Carrera orientada al desarrollo de software, con formación en lógica, algoritmos, programación orientada a objetos y arquitectura de sistemas. Tecnologías: C++, Java, C#, .NET, MySQL, SQL Server, HTML, CSS y JavaScript. </span>
                     </div>
                     <div class="educacion-curso">
                         <span class="exp-laboral-titulo">Diplomatura en Desarrollo Web Full Stack</span>
                         <span class="exp-laboral-empresa">Coderhouse</span>
                         <span class="exp-laboral-tiempo">2025 - Presente</span>
-                        <span class="container-desc-exp-laboral">Especialización en JavaScript, React, Node.js y MongoDB.</span>
+                        <span class="container-desc-exp-laboral">Formación enfocada en el desarrollo de aplicaciones web completas, abordando tanto front-end como back-end con metodologías ágiles. Tecnologías: HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, Firebase, Git, Github, Jira, Postman, Docker y Figma.</span>
                     </div>
                 </div>
             </section>
@@ -72,8 +77,10 @@ mejorando la eficiencia operativa.</span>
                     <div class="habilidades">
                         <span class="habilidades-titulo">Backend</span>
                         <div class="habilidades-tecnologias">
-                            <span class="tecnologia">C# .NET</span>
+                            <span class="tecnologia">C#</span>
+                            <span class="tecnologia">.NET</span>
                             <span class="tecnologia">Java</span>
+                            <span class="tecnologia">C++</span>
                         </div>
                     </div>
                     <div class="habilidades">
@@ -85,10 +92,10 @@ mejorando la eficiencia operativa.</span>
                         </div>
                     </div>
                     <div class="habilidades">
-                        <span class="habilidades-titulo">Herramientas</span>
+                        <span class="habilidades-titulo">Herramientas y Entornos</span>
                         <div class="habilidades-tecnologias">
                             <span class="tecnologia">Git</span>
-                            <span class="tecnologia">GIthub</span>
+                            <span class="tecnologia">Github</span>
                             <span class="tecnologia">Jira</span>
                             <span class="tecnologia">Postman</span>
                             <span class="tecnologia">Docker</span>
@@ -99,28 +106,38 @@ mejorando la eficiencia operativa.</span>
                 </div>
             </section>
             <section class="idiomas">
-                <h2>Idiomas</h2>
-                <div>
-                    <span>Español (nativo)</span>
-                    <span>Inglés (Avanzado)</span>
+                <h2 class="idiomas-titulo">Idiomas</h2>
+                <div class="container-idiomas">
+                    <span class="idioma">Español (nativo)</span>
+                    <span class="idioma">Inglés (Avanzado)</span>
                 </div>
             </section>
 
             <section class="contacto">
-                <h2>Contacto</h2>
-                <form action="mailto:facumarcati14@gmail.com" method="post" enctype="text/plain">
-                    <label>Nombre Completo:</label><br />
-                    <input type="text" name="nombre" /><br />
-                    <label>Email:</label><br />
-                    <input type="email" name="email" /><br />
-                    <label>Teléfono</label><br />
-                    <input type="number" name="cellphone" value="" /><br />
-                    <label>Asunto</label><br />
-                    <input type="text" name="subject" value="" /><br />
-                    <label>Mensaje:</label><br />
-                    <textarea name="mensaje"></textarea><br />
-                    <input type="submit" value="Enviar" />
-                </form>
+                <h2 class="contacto-titulo">Formulario de Contacto</h2>
+                <div class="container-contacto-form">
+                    <div class="contacto-form">
+                        <label class="lbl-contacto">Nombre Completo *</label><br />
+                        <input class="input-contacto" type="text" name="nombre" /><br />
+                    </div>
+                    <div class="contacto-form">
+                        <label class="lbl-contacto">Email *</label><br />
+                        <input class="input-contacto" type="email" name="email" /><br />
+                    </div>
+                    <div class="contacto-form">
+                        <label class="lbl-contacto">Teléfono *</label><br />
+                        <input class="input-contacto" type="number" name="cellphone" value="" /><br />
+                    </div>
+                    <div class="contacto-form">
+                        <label class="lbl-contacto">Asunto *</label><br />
+                        <input class="input-contacto" type="text" name="subject" value="" /><br />
+                    </div>
+                    <div class="contacto-form">
+                        <label class="lbl-contacto">Mensaje *</label><br />
+                        <textarea class="txtarea-contacto" name="mensaje" placeholder="Escriba su mensaje aquí..."></textarea><br />
+                    </div>
+                    <input class="btn-enviar-form-contacto" type="submit" value="Enviar Mensaje" />
+                </div>
             </section>
         </main>
     </body>

@@ -85,12 +85,43 @@ body {
     border-end-start-radius: 16px;
 }
 
-.contacto {
-    background: white;
-    padding: 20px 30px;
-    margin-top: 20px;
-    border-radius: 20px;
+.sobre-mi-titulo {
+    border-bottom: 3px solid #3498db;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    position: relative;
 }
+
+    .sobre-mi-titulo::after {
+        content: '';
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 50px;
+        height: 3px;
+        background: #e74c3c;
+    }
+
+.sobre-mi-desc {
+    padding-top: 10px;
+}
+
+.experiencia-laboral-titulo {
+    border-bottom: 3px solid #3498db;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+    .experiencia-laboral-titulo::after {
+        content: '';
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 50px;
+        height: 3px;
+        background: #e74c3c;
+    }
 
 .container-experiencia-laboral {
     display: flex;
@@ -132,6 +163,23 @@ body {
     flex-direction: column;
 }
 
+.educacion-titulo {
+    border-bottom: 3px solid #3498db;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+    .educacion-titulo::after {
+        content: '';
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 50px;
+        height: 3px;
+        background: #e74c3c;
+    }
+
 .container-educacion-curso {
     display: flex;
     flex-direction: column;
@@ -154,10 +202,27 @@ body {
         box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     }
 
+.habilidades-tecnicas-titulo {
+    border-bottom: 3px solid #3498db;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+    .habilidades-tecnicas-titulo::after {
+        content: '';
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 50px;
+        height: 3px;
+        background: #e74c3c;
+    }
+
 .container-habilidades-tecnicas {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
     margin-top: 10px;
 }
 
@@ -200,3 +265,135 @@ body {
         background: #2980b9;
         box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
     }
+
+.idiomas-titulo {
+    border-bottom: 3px solid #3498db;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+    .idiomas-titulo::after {
+        content: '';
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 50px;
+        height: 3px;
+        background: #e74c3c;
+    }
+
+.container-idiomas {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .container-idiomas:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+.idioma {
+    background: #3498db;
+    padding: 6px 10px;
+    border-radius: 12px;
+    color: white;
+}
+
+    .idioma:hover {
+        background: #2980b9;
+        box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+    }
+
+.contacto {
+    background: white;
+    padding: 20px 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+
+.contacto-titulo {
+    border-bottom: 3px solid #3498db;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+    .contacto-titulo::after {
+        content: '';
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 50px;
+        height: 3px;
+        background: #e74c3c;
+    }
+
+.container-contacto-form {
+    width: 100%;
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacto-form {
+    width: 100%;
+}
+
+.lbl-contacto {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.input-contacto {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    padding: 8px 8px;
+}
+
+.txtarea-contacto {
+    width: 100%;
+    height: 80px;
+    border: none;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    padding: 8px 8px;
+}
+
+.btn-enviar-form-contacto {
+    width: auto;
+    background: #3498db;
+    border: none;
+    color: white;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+    .btn-enviar-form-contacto:hover {
+        background: #2980b9;
+    }
+
+@media (min-width: 768px) {
+    .container-redes-sociales {
+        flex-direction: row;
+    }
+}
