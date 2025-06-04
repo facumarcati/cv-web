@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\cv-facundo-marcati\\cv-web\\CVFacundoMarcati\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67378D88-6578-4717-8F4F-CB071A595575}|CVFacundoMarcati\\CVFacundoMarcati.csproj|C:\\Users\\Usuario\\Desktop\\cv-facundo-marcati\\cv-web\\CVFacundoMarcati\\cvfacundomarcati\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{67378D88-6578-4717-8F4F-CB071A595575}|CVFacundoMarcati\\CVFacundoMarcati.csproj|solutionrelative:cvfacundomarcati\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67378D88-6578-4717-8F4F-CB071A595575}|CVFacundoMarcati\\CVFacundoMarcati.csproj|c:\\users\\usuario\\desktop\\cv-facundo-marcati\\cv-web\\cvfacundomarcati\\cvfacundomarcati\\content\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{67378D88-6578-4717-8F4F-CB071A595575}|CVFacundoMarcati\\CVFacundoMarcati.csproj|solutionrelative:cvfacundomarcati\\content\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Estilos.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\cv-facundo-marcati\\cv-web\\CVFacundoMarcati\\CVFacundoMarcati\\Content\\Estilos.css",
+              "RelativeDocumentMoniker": "CVFacundoMarcati\\Content\\Estilos.css",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\cv-facundo-marcati\\cv-web\\CVFacundoMarcati\\CVFacundoMarcati\\Content\\Estilos.css",
+              "RelativeToolTip": "CVFacundoMarcati\\Content\\Estilos.css",
+              "ViewState": "AgIAAGoBAAAAAAAAAAAAAIQBAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-02T21:17:01.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\cv-facundo-marcati\\cv-web\\CVFacundoMarcati\\CVFacundoMarcati\\Default.aspx",
+              "RelativeDocumentMoniker": "CVFacundoMarcati\\Default.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\cv-facundo-marcati\\cv-web\\CVFacundoMarcati\\CVFacundoMarcati\\Default.aspx",
+              "RelativeToolTip": "CVFacundoMarcati\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-02T21:10:26.265Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
